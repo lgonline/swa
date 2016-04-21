@@ -3,15 +3,16 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>SPA Chapter 1 section 1.2.4</title>
+    <!-- 定义body标签，填充整个浏览器，隐藏任何溢出的部分，背景设置为灰色 -->
+    <!-- 定义容纳单页应用所有内容的容器spa -->
+    <!-- 定义spa-sider类，将滑块固定在它所在容器的右下角，背景红，圆角 -->
     <style type="text/css">
-        <!-- 定义body标签，填充整个浏览器，隐藏任何溢出的部分，背景设置为灰色 -->
         body {
             width: 100%;
             height: 100%;
             overflow: hidden;
             background: #777;
         }
-
         #spa {
             position: absolute;
             top: 8px;
@@ -19,9 +20,8 @@
             bottom: 8px;
             right: 8px;
             border-radius: 8px 8px 0 8px;
-            background-color: #fff;
+            background-color: #ffffff;
         }
-
         .spa-sider {
             position: absolute;
             bottom: 0;
@@ -33,12 +33,12 @@
             background-color: #f00;
         }
     </style>
+    <script type="text/javascript"></script>
 </head>
 <body>
     <div id="spa">
         <div class="spa-sider"></div>
     </div>
-    hello, Ethan<p>
-    The first single web application to show slide
+    hello, ethan
 </body>
 </html>
